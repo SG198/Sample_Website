@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.subcontainer{
+    display: flex;
+}
+.subcontainer .left{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 20vw;
+    text-align:center;
+    align-items: flex-end;
+    box-shadow: 0 5px 35px rgba(14, 14, 14, 0.226);
+    z-index: 1000;
+}
+.myIcons{
+    display: flex;
+    flex-direction: column;
+    /* margin-right: 20px; */
+}
+.icon,.logo{
+    font-size: 20px;
+}
+.icon p{
+    font-size: 10px;
+}
+.subcontainer .left .logo,.myIcons{
+    margin-top: 30px;
+}
+.myIcons .icon{
+    padding: 10px;
+    cursor: pointer;
+    color: rgb(163, 162, 162);
+     
+}
+.subcontainer .left .logo{
+    margin-right: 20px;
+    font-size: 35px;
+}
+.myIcons .icon:hover{
+    background: rgb(180, 240, 220);
+    border-left: 2px solid blue;
+    color: #313131;
+}
+.myIcons .icon.active{
+    background: rgb(180, 240, 220);
+    border-left: 2px solid blue;
+    color: #313131;
+}
+
+/* Right section */
+.right{
+    background: rgb(236, 229, 229);
+    width: 70vw;
+    height: 80vh;
+    margin-top: 100px;
+    padding:10px 0 0 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.video{
+    display: flex;
+    color: rgb(163, 162, 162);
+    cursor: pointer;
+}
+.video i{
+    font-size: 10px;
+    margin: 4px;
+    
+}
+.video p{
+    font-weight: bold;
+}
+.rightContainer{
+   margin: 40px 0 0 100px;
+   display: flex;
+   flex-direction: column;
+   width: 60vh;
+}
+.Ptext{
+   display: flex;
+   text-align: center;
+   justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    padding: 30px;
+   }
+.rightContainer #searchItem{
+    width: 40vw;
+    padding: 10px 0;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.upload{
+    background: #ffffff;
+    width: 80px;
+    padding: 50px 20px;
+    text-align: center;
+}
+.upload p{
+   cursor: pointer;
+}
